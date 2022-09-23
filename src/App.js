@@ -4,6 +4,7 @@ import "./App.css";
 // IMPORT PAGES
 import Home from "./Pages/Home";
 import OverviewBeer from "./Pages/OverviewBeer";
+import DetailBeer from "./Pages/DetailBeer";
 
 // ROUTER
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -14,7 +15,8 @@ function App() {
       <div className="App">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/Overview" element={<OverviewBeer />} />
+          <Route path="/Beers" element={<OverviewBeer />} />
+          <Route path="/Beers/:id" element={<DetailBeer />} />
         </Routes>
       </div>
     </BrowserRouter>
@@ -22,9 +24,3 @@ function App() {
 }
 
 export default App;
-
-// overview:
-// image_url, name, tagline, created by (name), details button
-
-// Detail page:
-// img_url, name, tagline, first_brewed, attenuation_level, description, go back button
