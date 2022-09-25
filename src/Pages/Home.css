@@ -1,0 +1,23 @@
+.home-beer-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-beer-wrapper a {
+  background-color: #ffca41;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  padding: 3px 13px;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 30px;
+  width: 414px;
+}

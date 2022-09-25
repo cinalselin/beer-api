@@ -13,10 +13,11 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
+        <h1>BEER APP</h1>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/Beers" element={<OverviewBeer />} />
-          <Route path="/Beers/:id" element={<DetailBeer />} />
+          <Route path="/beers" element={<OverviewBeer />} />
+          <Route path="/beers/:id" element={<DetailBeer />} />
         </Routes>
       </div>
     </BrowserRouter>

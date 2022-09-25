@@ -1,0 +1,8 @@
+nav {
+  position: fixed;
+  top: 780px;
+  text-align: center;
+  background-color: #ffca41;
+  padding: 7px 0;
+  width: 414px;
+}

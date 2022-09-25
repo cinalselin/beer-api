@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const DetailsBtn = (props) => {
   return (
-    <button>
+    <button id="details-button">
       <Link to={`/Beers/${props.id}`}>Details</Link>
     </button>
   );

@@ -2,6 +2,9 @@
 import logo from "../Images/Logo.svg";
 import { Link } from "react-router-dom";
 
+// IMPORT CSS
+import "./Nav.css";
+
 const Nav = () => {
   return (
     <nav>

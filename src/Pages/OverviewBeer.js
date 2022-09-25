@@ -1,9 +1,6 @@
 // IMPORT USEEFFECT USESTATE
 import { useEffect, useState } from "react";
 
-// IMPORT ROUTER DOM
-import { Link } from "react-router-dom";
-
 // IMPORT COMPONENTS
 import Nav from "../Components/Nav";
 import BeerInfo from "../Components/BeerInfo";
@@ -18,13 +15,14 @@ const OverviewBeer = () => {
   }, []);
 
   return (
-    <div>
+    <div className="overview-wrapper">
       {beers.map((b, index) => (
         <BeerInfo
           key={"Beer" + index}
           img={b.image_url}
           name={b.name}
           tagline={b.tagline}
+          id={b._id}
         />
       ))}
       <Nav />
@@ -33,9 +31,3 @@ const OverviewBeer = () => {
 };
 
 export default OverviewBeer;
-
-// overview:
-// image_url, name, tagline, created by (name), details button
-
-// Detail page:
-// img_url, name, tagline, first_brewed, attenuation_level, description, go back button
