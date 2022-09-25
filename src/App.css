@@ -21,9 +21,6 @@ h1 {
   padding: 5px;
 }
 
-h1::after {
-  content: url("./Images/Logo.svg");
-}
 
 .App {
   width: 414px;
