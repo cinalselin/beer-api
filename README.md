@@ -8,7 +8,7 @@ The task of the project was to create a beer app using an API. The following poi
 
 ## Demo
 
-https://cinalselin-super-carlist-react.netlify.app/
+https://cinalselin-react-beer-app.netlify.app/
 
 ## Screenshots
 
